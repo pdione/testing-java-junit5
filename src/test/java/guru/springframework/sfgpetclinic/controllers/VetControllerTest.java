@@ -2,7 +2,6 @@ package guru.springframework.sfgpetclinic.controllers;
 
 import guru.springframework.fauxspring.ModelMapImpl;
 import guru.springframework.sfgpetclinic.fauxspring.Model;
-import guru.springframework.sfgpetclinic.fauxspring.ModelMap;
 import guru.springframework.sfgpetclinic.model.Vet;
 import guru.springframework.sfgpetclinic.services.SpecialtyService;
 import guru.springframework.sfgpetclinic.services.VetService;
@@ -14,7 +13,6 @@ import org.junit.jupiter.api.Test;
 import java.util.Set;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 
 class VetControllerTest {
 
